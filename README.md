@@ -8,6 +8,6 @@ Personal Portfolio
 ## introduction method
 2
 ## result
-3 ![123!](./柱状图.png)(https://dfjoafjdi.github.io/portfolio/map.html)
+3 [![123!](./柱状图.png)](https://dfjoafjdi.github.io/portfolio/map.html)
 ## discussion
 4
