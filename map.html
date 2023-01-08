@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e8bcd0eb21386590e8a58e631fcc7b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e8bcd0eb21386590e8a58e631fcc7b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e8bcd0eb21386590e8a58e631fcc7b3 = L.map(
+                "map_9e8bcd0eb21386590e8a58e631fcc7b3",
+                {
+                    center: [26.0379, 119.240061],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    control: false,
+                }
+            );
+            L.control.scale().addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+
+            
+
+        
+    
+            var tile_layer_240366de8199a850cca69dad225139fd = L.tileLayer(
+                "http://webrd02.is.autonavi.com/appmaptile?lang=zh_cn\u0026size=1\u0026scale=1\u0026style=8\u0026x={x}\u0026y={y}\u0026z={z}",
+                {"attribution": "\u0026copy; \u003ca href=http://ditu.amap.com/\u003e\u9ad8\u5fb7\u5730\u56fe\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 25, "maxZoom": 25, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+            var heat_map_c7a7b825c051e05840461b547981a3f0 = L.heatLayer(
+                [[26.038877, 119.239674, 86.0], [26.035297, 119.241499, 58.0], [26.03599, 119.245324, 55.0], [26.038265, 119.243715, 52.0], [26.037929, 119.241609, 39.0], [26.038239, 119.245679, 29.0], [26.040054, 119.238234, 13.0], [26.03834, 119.245566, 1.0]],
+                {"blur": 15, "gradient": {"0.1": "blue", "0.2": "green", "0.5": "yellow", "0.7": "orange", "1": "red"}, "maxZoom": 18, "minOpacity": 0.5, "radius": 40}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+            var marker_32fbe59a7320acb5d55e57933e0fcfcd = L.marker(
+                [26.038877, 119.239674],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_e6dda0938e7ca44ced1cfee35f4d9d64 = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_1ea39f585d93549f3829d486e737b163 = $(`<div id="html_1ea39f585d93549f3829d486e737b163" style="width: 100.0%; height: 100.0%;">天骄苑</div>`)[0];
+                popup_e6dda0938e7ca44ced1cfee35f4d9d64.setContent(html_1ea39f585d93549f3829d486e737b163);
+            
+        
+
+        marker_32fbe59a7320acb5d55e57933e0fcfcd.bindPopup(popup_e6dda0938e7ca44ced1cfee35f4d9d64)
+        ;
+
+        
+    
+    
+            var marker_bc6e24dbe3413f389d750a0e9d69eca1 = L.marker(
+                [26.035297, 119.241499],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_f7e1529a45f4a839cd6bb9f448c78ffe = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_a30ffb6ff097d2e9a26bc6c00278df54 = $(`<div id="html_a30ffb6ff097d2e9a26bc6c00278df54" style="width: 100.0%; height: 100.0%;">金爵苑</div>`)[0];
+                popup_f7e1529a45f4a839cd6bb9f448c78ffe.setContent(html_a30ffb6ff097d2e9a26bc6c00278df54);
+            
+        
+
+        marker_bc6e24dbe3413f389d750a0e9d69eca1.bindPopup(popup_f7e1529a45f4a839cd6bb9f448c78ffe)
+        ;
+
+        
+    
+    
+            var marker_ce81a2fb839288ea8a059fc5eeb955c7 = L.marker(
+                [26.03599, 119.245324],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_ccfc9a0d401ee673c84ee8c6fbbfdffd = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_25f0ad6c84c828af0af935a00f96d93b = $(`<div id="html_25f0ad6c84c828af0af935a00f96d93b" style="width: 100.0%; height: 100.0%;">领秀苑</div>`)[0];
+                popup_ccfc9a0d401ee673c84ee8c6fbbfdffd.setContent(html_25f0ad6c84c828af0af935a00f96d93b);
+            
+        
+
+        marker_ce81a2fb839288ea8a059fc5eeb955c7.bindPopup(popup_ccfc9a0d401ee673c84ee8c6fbbfdffd)
+        ;
+
+        
+    
+    
+            var marker_9f73a33b981714e5c4022ebf88b1be7f = L.marker(
+                [26.038265, 119.243715],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_bc0b6461f31ff10e9975514b9b60af53 = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_f9c2f4e64e8929feef7335b186a87a36 = $(`<div id="html_f9c2f4e64e8929feef7335b186a87a36" style="width: 100.0%; height: 100.0%;">俊仕苑</div>`)[0];
+                popup_bc0b6461f31ff10e9975514b9b60af53.setContent(html_f9c2f4e64e8929feef7335b186a87a36);
+            
+        
+
+        marker_9f73a33b981714e5c4022ebf88b1be7f.bindPopup(popup_bc0b6461f31ff10e9975514b9b60af53)
+        ;
+
+        
+    
+    
+            var marker_48ed377d4ae523d5f667626548525026 = L.marker(
+                [26.037929, 119.241609],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_a223d7920f0d8bab478556ccebc4b141 = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_23822ffc8bb9a42e8cc2eb1d7e372c37 = $(`<div id="html_23822ffc8bb9a42e8cc2eb1d7e372c37" style="width: 100.0%; height: 100.0%;">爱唯大地幼儿园</div>`)[0];
+                popup_a223d7920f0d8bab478556ccebc4b141.setContent(html_23822ffc8bb9a42e8cc2eb1d7e372c37);
+            
+        
+
+        marker_48ed377d4ae523d5f667626548525026.bindPopup(popup_a223d7920f0d8bab478556ccebc4b141)
+        ;
+
+        
+    
+    
+            var marker_94e6ecc62c849a55c0ec4594c11c2871 = L.marker(
+                [26.038239, 119.245679],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_14fe47f36b5d107401164039d2eee25b = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_d82be4f6a18a83b74a6b61af9c737895 = $(`<div id="html_d82be4f6a18a83b74a6b61af9c737895" style="width: 100.0%; height: 100.0%;">云顶苑</div>`)[0];
+                popup_14fe47f36b5d107401164039d2eee25b.setContent(html_d82be4f6a18a83b74a6b61af9c737895);
+            
+        
+
+        marker_94e6ecc62c849a55c0ec4594c11c2871.bindPopup(popup_14fe47f36b5d107401164039d2eee25b)
+        ;
+
+        
+    
+    
+            var marker_3f445612d19aafe2e7000e5c2480483f = L.marker(
+                [26.040054, 119.238234],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_7d0cd984ab82b48b6d58c2eeb3f11449 = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_db7e391263c2b26a0dbf7e92c05adb05 = $(`<div id="html_db7e391263c2b26a0dbf7e92c05adb05" style="width: 100.0%; height: 100.0%;">天骄苑38栋高层</div>`)[0];
+                popup_7d0cd984ab82b48b6d58c2eeb3f11449.setContent(html_db7e391263c2b26a0dbf7e92c05adb05);
+            
+        
+
+        marker_3f445612d19aafe2e7000e5c2480483f.bindPopup(popup_7d0cd984ab82b48b6d58c2eeb3f11449)
+        ;
+
+        
+    
+    
+            var marker_1e8be8c7db4d0e7cac4135befa173bf5 = L.marker(
+                [26.03834, 119.245566],
+                {}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+    
+        var popup_ecba0d3a7410cad6092293c683d9a7b8 = L.popup({"maxWidth": 100});
+
+        
+            
+                var html_e585498488560ab54ea04db306df4cba = $(`<div id="html_e585498488560ab54ea04db306df4cba" style="width: 100.0%; height: 100.0%;">云顶苑4栋高层</div>`)[0];
+                popup_ecba0d3a7410cad6092293c683d9a7b8.setContent(html_e585498488560ab54ea04db306df4cba);
+            
+        
+
+        marker_1e8be8c7db4d0e7cac4135befa173bf5.bindPopup(popup_ecba0d3a7410cad6092293c683d9a7b8)
+        ;
+
+        
+    
+    
+                var lat_lng_popup_7d53ce9a3b2c62d045b09cebb9e1420f = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_7d53ce9a3b2c62d045b09cebb9e1420f
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+                    }
+                map_9e8bcd0eb21386590e8a58e631fcc7b3.on('click', latLngPop);
+            
+    
+            var layer_control_c05b5728e9122e432a6dfc944d296cc8 = {
+                base_layers : {
+                    "baseLayer" : tile_layer_240366de8199a850cca69dad225139fd,
+                },
+                overlays :  {
+                    "Heat Map" : heat_map_c7a7b825c051e05840461b547981a3f0,
+                },
+            };
+            L.control.layers(
+                layer_control_c05b5728e9122e432a6dfc944d296cc8.base_layers,
+                layer_control_c05b5728e9122e432a6dfc944d296cc8.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_9e8bcd0eb21386590e8a58e631fcc7b3);
+        
+</script>
+</html>
