@@ -8,6 +8,6 @@ Personal Portfolio
 ## introduction method
 2
 ## result
-3 [![123!](./screenshot.png "123")](https://dfjoafjdi.github.io/portfolio/map.html)
+3 [![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
 ## discussion
 4
