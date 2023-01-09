@@ -8,7 +8,9 @@ Personal Portfolio
 ## introduction method
 2
 ## result
-3 [![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
+
+### figure
+![figure!](./柱状图.png "figure")
 
 ### figure 'plotly'
 
@@ -19,6 +21,8 @@ Personal Portfolio
                         }).then(function(){
                             Plotly.animate('12a488f1-15b6-44cf-a409-9b54176905b0', null);
                         })                };                            </script>        </div>
+### visualization with map
+[![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
 
 
 ## discussion
