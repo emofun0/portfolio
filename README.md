@@ -1,5 +1,5 @@
-# portfolio
-Personal Portfolio
+# Visualization of "You call and I respond" events combined with maps
+Made by Guoshitong
 <hr>
 
 
@@ -9,10 +9,10 @@ Personal Portfolio
 2
 ## result
 
-### figure
+### Statistics chart of cumulative events of "You call I answer" in Zhongtian Community
 ![figure!](./柱状图.png "figure")
 
-### figure 'plotly'
+### Dynamic bar chart based on Plotly
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
@@ -21,7 +21,7 @@ Personal Portfolio
                         }).then(function(){
                             Plotly.animate('12a488f1-15b6-44cf-a409-9b54176905b0', null);
                         })                };                            </script>        </div>
-### visualization with map
+### Final visualization with map based on Folium
 [![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
 
 
