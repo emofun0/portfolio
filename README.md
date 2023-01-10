@@ -1,13 +1,11 @@
-# Visualization of "You call and I respond" events combined with maps
-Made by Guoshitong
 <hr>
 
 
-## Question
+# Question
 1
-## Introduction method
+# Introduction method
 2
-## Result
+# Result
 
 1. **Statistics chart of cumulative events of "You call I answer" in Zhongtian Community**
 ![figure!](./柱状图.png "figure")
@@ -25,5 +23,5 @@ Made by Guoshitong
 [![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
 
 
-## Discussion
+# Discussion
 4
