@@ -8,7 +8,7 @@
 # Result
 
 1. **Statistics chart of cumulative events of "You call I answer" in Zhongtian Community**
-![figure!](./柱状图.png "figure")
+![figure!](./project/柱状图.png "figure")
 
 2. **Dynamic bar chart based on Plotly**
 
@@ -20,7 +20,7 @@
                             Plotly.animate('12a488f1-15b6-44cf-a409-9b54176905b0', null);
                         })                };                            </script>        </div>
 3. **Final visualization with map based on Folium**
-[![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
+[![Heat Map!](./project/screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/project/map.html)
 
 
 # Discussion
