@@ -35,5 +35,7 @@ Although the current object oriented public account is only Zhongtian community,
 3. Understand the relationship between hot issue trends and geographical location
 
 ...
+
 Also, the limitation of our work is that the Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.
-Thus, in the future, we hope to continue to develop specific interfaces for all kinds of data related to the ground can be easily and quickly applied to our program, so as to better serve the user.
+
+Therefore, in the future, we hope to continue to develop specific interfaces for all kinds of data related to the ground can be easily and quickly applied to our program, so as to better serve the user.
