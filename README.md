@@ -24,4 +24,16 @@
 
 
 # Discussion
-  
+Using plotly and folium, we end up with an interactive heat map (cumulative event giFs + real-time event GiFs + total event statics).
+
+Although the current object oriented public account is only Zhongtian community, in the future, if the object is expanded, the visualization of map can intuitively      feel the information combined with geographic data from many aspects, including but not limited to:
+
+1. Know where to focus real-time hot issues
+
+2. Understand the dynamic changes of hotspot issues
+
+3. Understand the relationship between hot issue trends and geographical location
+
+...
+Also, the limitation of our work is that the Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.
+Thus, in the future, we hope to continue to develop specific interfaces for all kinds of data related to the ground can be easily and quickly applied to our program, so as to better serve the user.
