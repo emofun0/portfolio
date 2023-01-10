@@ -5,14 +5,14 @@ Made by Guoshitong
 
 ## Question
 1
-## introduction method
+## Introduction method
 2
-## result
+## Result
 
-### Statistics chart of cumulative events of "You call I answer" in Zhongtian Community
+1. **Statistics chart of cumulative events of "You call I answer" in Zhongtian Community**
 ![figure!](./柱状图.png "figure")
 
-### Dynamic bar chart based on Plotly
+2. **Dynamic bar chart based on Plotly**
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
@@ -21,9 +21,9 @@ Made by Guoshitong
                         }).then(function(){
                             Plotly.animate('12a488f1-15b6-44cf-a409-9b54176905b0', null);
                         })                };                            </script>        </div>
-### Final visualization with map based on Folium
+3. **Final visualization with map based on Folium**
 [![Heat Map!](./screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/map.html)
 
 
-## discussion
+## Discussion
 4
