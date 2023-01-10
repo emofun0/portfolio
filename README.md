@@ -37,11 +37,13 @@ Although the current object oriented public account is only Zhongtian community,
 ...
 
 Problems met in the progress:
+
 1. Tkinter is so old that the result can not be put in the website.
 
 2. The template of HeatMapWithTime is so vague that it cost a lot of time to find out the standard input template.
 
 Also, there're some limitations:
+
 1.The Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.
 
 2. We found that some data is about notices rather than people's appeal, but we can not classify and sort all the data yet.
