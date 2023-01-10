@@ -36,6 +36,21 @@ Although the current object oriented public account is only Zhongtian community,
 
 ...
 
-Also, the limitation of our work is that the Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.
+Problems met in the progress:
+1. Tkinter is so old that the result can not be put in the website.
 
-Therefore, in the future, we hope to continue to develop specific interfaces for all kinds of data related to the ground can be easily and quickly applied to our program, so as to better serve the user.
+2. The template of HeatMapWithTime is so vague that it cost a lot of time to find out the standard input template.
+
+Also, there're some limitations:
+1.The Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.
+
+2. We found that some data is about notices rather than people's appeal, but we can not classify and sort all the data yet.
+
+Therefore, in the future, we hope to continue to develop specific interfaces for all kinds of geo-related data to be easily and quickly applied to our programs, so as to better serve users.
+
+# Reference
+1. Rob Story,(2013),Folium 0.12.1 documentation.Available from:http://python-visualization.github.io/folium/[7 Jan 2023]
+
+2. Zditect,n.d.,Folium Package in Python,Available from:https://www.zditect.com/guide/python/folium-package-in-python.html[7 Jan 2023]
+
+3. 中天社区.csv
