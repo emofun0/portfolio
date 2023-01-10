@@ -2,9 +2,9 @@
 
 
 # Question
-1
+  "You call I Answer" is a platform developed by "WenXuJinShan" public account for the convenience of residents and staff to reflect community problems. At present, this platform has handled more than 400 incidents, providing great convenience for community residents to solve their life problems. "Visualization combined with data and maps" is exactly the direction of our team project, aiming at making it more convenient for community managers to understand the number of problems in each area of the community, and possibly to find some geographical rules, so as to better find problems and serve the community.
 # Introduction method
-2
+  python with Plotly, Tkinter and Folium
 # Result
 
 1. **Statistics chart of cumulative events of "You call I answer" in Zhongtian Community**
@@ -24,4 +24,4 @@
 
 
 # Discussion
-4
+  
