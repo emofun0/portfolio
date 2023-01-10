@@ -1,6 +1,7 @@
 remote_theme: pages-themes/cayman@v0.2.0
 title: [Visualization of “You call and I respond” events combined with maps]
-description: [Website made by Guoshitong, data provided by Guoshitong & Wangyipeng]
+description: [Website made by Guoshitong
+data provided by Guoshitong & Wangyipeng]
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
