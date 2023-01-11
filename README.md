@@ -2,9 +2,18 @@
 
 
 # Question
-<center>"You Call I Respond" is a platform developed by "WenXuJinShan" public account for the convenience of residents and staff to reflect community problems. At present, this platform has handled more than 400 incidents, providing great convenience for community residents to solve their life problems. "Visualization combined with data and maps" is exactly the direction of our team project, aiming at making it more convenient for community managers to understand the number of problems in each area of the community, and possibly to find some geographical rules, so as to better find problems and serve the community.</center>
+"You Call I Respond" is a platform developed by "WenXuJinShan" public account for the convenience of residents and staff to reflect community problems. At present, this platform has handled more than 400 incidents, providing great convenience for community residents to solve their life problems. 
+
+"Visualization combined with data and maps" is exactly the direction of our team project, aiming at making it more convenient for community managers to understand the number of problems in each area of the community, and possibly to find some geographical rules, so as to better find problems and serve the community.
+
+## Why use **map**
+
+<center>The geographical relationship of different grids can be shown directly with a map, while in a chart, you'll never know it.</center>
+
 # Introduction method
-<center>Python with Plotly, Tkinter and Folium</center>
+
+Python with: `Plotly`, [`Tkinter`](“tkinter — Python interface to Tcl/Tk”. Available from: https://docs.python.org/3/library/tkinter.html#tk-option-data-types) and [`Folium`](http://python-visualization.github.io/folium/)
+
 # Result
 
 **<center>1. Statistics chart of cumulative events of "You call I answer" in Zhongtian Community</center>**
@@ -19,7 +28,11 @@
                         }).then(function(){
                             Plotly.animate('12a488f1-15b6-44cf-a409-9b54176905b0', null);
                         })                };                            </script>        </div>
-**<center>3. Final visualization with map based on Folium</center>**
+
+**<center>3. Visualization with map based on Tkinter</center>**
+[![pyheatmap](./project/pyheatmap.png)](https://dfjoafjdi.github.io/portfolio/project/display.py)
+
+**<center>4. Final visualization with map based on Folium</center>**
 [![Heat Map!](./project/screenshot.png "Heat Map")](https://dfjoafjdi.github.io/portfolio/project/map.html)
 
 
@@ -28,31 +41,34 @@ Using plotly and folium, we end up with an interactive heat map (cumulative even
 
 Although the current object oriented public account is only Zhongtian community, in the future, if the object is expanded, the visualization of map can intuitively      feel the information combined with geographic data from many aspects, including but not limited to:
 
-1. Know where to focus real-time hot issues
-
-2. Understand the dynamic changes of hotspot issues
-
-3. Understand the relationship between hot issue trends and geographical location
-
+<ol>
+<li>Know where to focus real-time hot issues</li>
+<li>Understand the dynamic changes of hotspot issues</li>
+<li>Understand the relationship between hot issue trends and geographical location</li>
+</ol>
 ...
 
 Problems met in the progress:
 
-1. Tkinter is so old that the result can not be put in the website.
-
-2. The template of HeatMapWithTime is so vague that it cost a lot of time to find out the standard input template.
+<ol>
+<li>Tkinter is so old that the result can not be put in the website.</li>
+<li>The template of HeatMapWithTime is so vague that it cost a lot of time to find out the standard input template.</li>
+</ol>
 
 Also, there're some limitations:
 
-1. The Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.
-
-2. We found that some data is about notices rather than people's appeal, but we can not classify and sort all the data yet.
+<ol>
+<li>The Interface is not yet defined, namely we will need to first deal with the raw data and than apply them to our programme.</li>
+<li>We found that some data is about notices rather than people's appeal, but we can not classify and sort all the data yet.</li>
+</ol>
 
 Therefore, in the future, we hope to continue to develop specific interfaces for all kinds of geo-related data to be easily and quickly applied to our programs, so as to better serve users.
 
 # Reference
-1. Rob Story,(2013),Folium 0.12.1 documentation.Available from:http://python-visualization.github.io/folium/[7 Jan 2023]
 
-2. Zditect,n.d.,Folium Package in Python,Available from:https://www.zditect.com/guide/python/folium-package-in-python.html[7 Jan 2023]
-
-3. 中天社区.csv
+<ol>
+<li>Rob Story,(2013),Folium 0.12.1 documentation.Available from:http://python-visualization.github.io/folium/[7 Jan 2023]</li>
+<li>Zditect,n.d.,Folium Package in Python,Available from:https://www.zditect.com/guide/python/folium-package-in-python.html[7 Jan 2023]</li>
+<li>“tkinter — Python interface to Tcl/Tk”. Available from: https://docs.python.org/3/library/tkinter.html#tk-option-data-types</li>
+<li>中天社区.csv</li>
+</ol>
